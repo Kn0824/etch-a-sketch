@@ -1,0 +1,40 @@
+.row {
+    border: solid thin;
+    flex: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.column {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    width: 450px;
+    height: 450px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.change {
+    display: flex;
+    gap: 12px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
