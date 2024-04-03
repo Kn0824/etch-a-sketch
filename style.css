@@ -1,5 +1,4 @@
 .row {
-    border: solid thin;
     flex: auto;
     height: 100%;
     width: 100%;
@@ -13,6 +12,7 @@
 }
 
 .container {
+    border: solid;
     justify-content: center;
     align-items: center;
     margin: 32px;
